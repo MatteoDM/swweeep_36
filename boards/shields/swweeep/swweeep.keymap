@@ -115,7 +115,7 @@
     &kp K_REDO  &mkp RCLK      &mmv MOVE_UP   &mkp LCLK       &msc SCRL_UP          &mkp MCLK &mkp LCLK      &msc SCRL_UP   &mkp RCLK       &kp SLCK
     &kp PSCRN   &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN        &mkp MB4  &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_RIGHT &trans
     &kp K_UNDO  &kp K_COPY     &kp K_CUT      &kp K_PASTE     &trans                &mkp MB5  &trans         &trans         &trans          &trans
-                               &trans         &mkp RCLK       &mkp LCLK      &trans &trans    &trans
+                               &mkp LCLK      &mkp RCLK        &trans      &trans &trans    &trans
             >;
         };
 
