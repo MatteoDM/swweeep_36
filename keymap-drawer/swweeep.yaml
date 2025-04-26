@@ -31,43 +31,43 @@ layers:
   - ','
   - .
   - /
-  - {t: ⌫, h: func}
-  - {t: ⌦, h: sym}
+  - {t: ⌦, h: func}
+  - {t: ⌫, h: sym}
   - {t: ESC, h: num}
   - {t: ⭾, h: nav}
-  - {t: ENTER, h: mouse}
+  - {t: ⏎, h: mouse}
   - ␣
   nav:
-  - REDO
+  - ↷
   - HOME
-  - ⬆
+  - ▲
   - END
-  - PG UP
+  - PAG▲
   - {t: ▽, type: trans}
-  - 🄰CAPS
-  - KP NUM
+  - 🄰 CAPS
+  - NUM
   - ⎀INS
-  - BOOT
-  - HOME
-  - ⬅
-  - ⬇
-  - ⮕
-  - PG DN
+  - {t: ▽, type: trans}
+  - CTRL+ ⌥+⭾
+  - ◀
+  - ▼
+  - ▶
+  - PAG▼
   - CMENU
   - ⇧
   - CTRL
   - ⌥
   - ⌘
-  - UNDO
+  - ↶
+  - ✂
   - COPY
-  - CUT
-  - PASTE
+  - ✂
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
-  - REDO
+  - ↷
   - RIGHT CLICK
   - ▲ MOUSE
   - LEFT CLICK
@@ -95,10 +95,10 @@ layers:
   - ▽ SCROLL
   - ▷ SCROLL
   - {t: ▽, type: trans}
-  - UNDO
+  - ↶
+  - ✂
   - COPY
-  - CUT
-  - PASTE
+  - ✂
   - {t: ▽, type: trans}
   - ⎘
   - {t: ▽, type: trans}
@@ -150,10 +150,10 @@ layers:
   - {t: ▽, type: trans}
   func:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - VOL UP
+  - REWIND
+  - ⏸
+  - FAST FORW
+  - 🕪
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -163,17 +163,17 @@ layers:
   - ⌥
   - CTRL
   - ⇧
-  - VOL DN
+  - 🕩
   - {t: ▽, type: trans}
   - F4
   - F5
   - F6
   - F11
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PLAY PAUSE
-  - {t: ▽, type: trans}
-  - MUTE
+  - ⏮
+  - ⏯
+  - ⏭
+  - 🕨
   - {t: ▽, type: trans}
   - F1
   - F2
