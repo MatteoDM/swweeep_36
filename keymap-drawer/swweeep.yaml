@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - {t: P, h: adj}
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTL}
-  - {t: F, h: LSHIFT}
+  - {t: A, h: ⌘}
+  - {t: S, h: ⌥}
+  - {t: D, h: CTRL}
+  - {t: F, h: ⇧}
   - G
   - H
-  - {t: J, h: RSHIFT}
-  - {t: K, h: RCTL}
-  - {t: L, h: LALT}
-  - {t: ;, h: RGUI}
+  - {t: J, h: ⇧}
+  - {t: K, h: CTRL}
+  - {t: L, h: ⌥}
+  - {t: ;, h: ⌘}
   - Z
   - X
   - C
@@ -31,33 +31,33 @@ layers:
   - ','
   - .
   - /
-  - {t: BSPC, h: func}
-  - {t: DEL, h: sym}
-  - {t: ESC, h: num}
-  - {t: TAB, h: nav}
-  - {t: ENTER, h: mouse}
-  - SPACE
+  - {t: ESC, h: func}
+  - ␣
+  - {t: ⭾, h: nav}
+  - {t: ENTER, h: num}
+  - {t: ⌫, h: sym}
+  - {t: ⌦, h: mouse}
   nav:
   - REDO
   - HOME
-  - UP
+  - ⬆
   - END
   - PG UP
   - {t: ▽, type: trans}
-  - CAPS
+  - 🄰CAPS
   - KP NUM
-  - INS
-  - '&bootloader'
-  - HOME
-  - LEFT
-  - DOWN
-  - RIGHT
+  - ⎀INS
+  - BOOT
+  - '&lca_tab'
+  - ⬅
+  - ⬇
+  - ⮕
   - PG DN
-  - CMENU
-  - LSHIFT
-  - LCTL
-  - LALT
-  - LGUI
+  - MENU
+  - ⇧
+  - CTRL
+  - ⌥
+  - ⌘
   - UNDO
   - COPY
   - CUT
@@ -70,59 +70,59 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
   - REDO
-  - '&mkp RCLK'
-  - '&mmv MOVE_UP'
-  - '&mkp LCLK'
-  - '&msc SCRL_UP'
-  - '&mkp MCLK'
-  - '&mkp LCLK'
-  - '&msc SCRL_UP'
-  - '&mkp RCLK'
-  - SLCK
-  - PSCRN
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
+  - RIGHT CLICK
+  - ▲ MOUSE
+  - LEFT CLICK
+  - △ SCROLL
+  - MIDDLE CLICK
+  - LEFT CLICK
+  - △ SCROLL
+  - RIGHT CLICK
+  - SCROLL LOCK
+  - ⎙
+  - ◀ MOUSE
+  - ▼ MOUSE
+  - ▶ MOUSE
+  - ▽ SCROLL
+  - ⎗
+  - ◁ SCROLL
+  - ▽ SCROLL
+  - ▷ SCROLL
   - {t: ▽, type: trans}
   - UNDO
   - COPY
   - CUT
   - PASTE
   - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - ⎘
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - RIGHT CLICK
+  - LEFT CLICK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   sym:
   - {t: ▽, type: trans}
-  - '`'
-  - ''''
-  - '"'
+  - '` INTL.'
+  - ''' INTL.'
+  - '" INTL.'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
   - '}'
   - '@'
   - {t: ▽, type: trans}
-  - '~'
+  - ~ INTL.
   - '&'
   - '!'
   - '|'
@@ -132,7 +132,7 @@ layers:
   - )
   - _
   - '#'
-  - ^
+  - ^ INTL.
   - <
   - '>'
   - '='
@@ -143,10 +143,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   func:
   - {t: ▽, type: trans}
@@ -159,10 +159,10 @@ layers:
   - F8
   - F9
   - F10
-  - LGUI
-  - LALT
-  - LCTL
-  - LSHIFT
+  - ⌘
+  - ⌥
+  - CTRL
+  - ⇧
   - VOL DN
   - {t: ▽, type: trans}
   - F4
@@ -187,9 +187,9 @@ layers:
   - {t: ▽, type: trans}
   num:
   - {t: ▽, type: trans}
-  - '&bm'
-  - '&sqm'
-  - '&dqm'
+  - '`'
+  - ''''
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
@@ -218,8 +218,8 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adj:
@@ -227,8 +227,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bootloader'
-  - '&bootloader'
+  - BOOT
+  - BOOT
   - BT PRV
   - BT NXT
   - {t: ▽, type: trans}
