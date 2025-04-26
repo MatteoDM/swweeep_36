@@ -173,22 +173,22 @@ draw_config:
     }
 
     /* .hold-NAV.hold {
-        fill: #0392cf;
+        fill: #ffd966;
     }
     .hold-MOUSE.hold {
-        fill: #76a5af;
+        fill: #93c47d;
     }
     .hold-SYM.hold {
-        fill: #108500;
+        fill: #76a5af;
     }
     .hold-NUM.hold {
-        fill: #ee4035;
+        fill: #67a0d6;
     }
     .hold-FUN.hold {
-        fill: #fdf498;
+        fill: #8e7cc3;
     }
     .hold-ADJ.hold {
-        fill: #a100ba;
+        fill: #e06666;
     } */
 
     rect.key.layer-hold, rect.key-side.layer-hold {

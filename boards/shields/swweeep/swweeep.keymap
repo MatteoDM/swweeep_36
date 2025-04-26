@@ -155,6 +155,15 @@
             >;
         };
 
+        num_layer {
+            bindings = <
+    &trans   &bm       &sqm      &dqm      &trans                  &trans &kp N7 &kp N8 &kp N9 &kp COMMA
+    &kp FSLH &kp ASTRK &kp MINUS &kp PLUS  &kp PRCNT               &kp N0 &kp N4 &kp N5 &kp N6 &kp EQUAL
+    &kp BSLH &kp LT    &kp GT    &kp EQUAL &trans                  &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT
+                                 &trans    &trans    &trans &trans &trans &trans
+            >;
+        };
+
         func_layer {
             bindings = <
     &trans   &kp C_RW   &kp C_PAUSE      &kp C_FF   &kp C_VOL_UP               &trans &kp F7 &kp F8 &kp F9 &kp F10
@@ -164,14 +173,7 @@
             >;
         };
 
-        num_layer {
-            bindings = <
-    &trans   &bm       &sqm      &dqm      &trans                  &trans &kp N7 &kp N8 &kp N9 &kp COMMA
-    &kp FSLH &kp ASTRK &kp MINUS &kp PLUS  &kp PRCNT               &kp N0 &kp N4 &kp N5 &kp N6 &kp EQUAL
-    &kp BSLH &kp LT    &kp GT    &kp EQUAL &trans                  &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT
-                                 &trans    &trans    &trans &trans &trans &trans
-            >;
-        };
+
 
         adj_layer {
             bindings = <
