@@ -420,7 +420,7 @@ parse_config:
     PG_DN: 'PAG▼'
     HOME: 'HOME'
     END: 'END'
-    K_MENU: '☰'
+    K_CMENU: '☰'
     CAPS: '🄰 CAPS'
     KP_NUM: 'NUM'
     SLCK: 'SCROLL LOCK'
@@ -431,7 +431,7 @@ parse_config:
     K_REDO: '↷'
     K_COPY: 'COPY'
     K_CUT: '✂'
-    K_PASTE: '✂'
+    K_PASTE: 'PASTE'
 
     C_MUTE: '🕨'
     C_VOL_UP: '🕪'
