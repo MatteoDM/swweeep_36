@@ -1,7 +1,8 @@
+# KEYMAP
 
+![swweeep](./keymap-drawer/swweeep.svg)
 
-
-
+## Ho to build
 
 git clone https://github.com/zmkfirmware/zmk.git
 cd zmk
