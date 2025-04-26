@@ -235,6 +235,7 @@ parse_config:
     '&bm': '`',
     '&sqm': '''',
     '&dqm': '"',
+    '&lca_tab': 'CTRL+ ⌥+⭾'
 
   }
   sticky_label: sticky
@@ -395,15 +396,15 @@ parse_config:
     NUHS: '#'
     TILDE2: '~'
     
-    UP: '⬆'
-    DOWN: '⬇'
-    LEFT: '⬅'
-    RIGHT: '⮕'
+    UP: '▲'
+    DOWN: '▼'
+    LEFT: '◀'
+    RIGHT: '▶'
     SPACE: '␣'
     TAB: '⭾'
-    ENT: '⏎'
-    DEL: '⌦'
-    BSPC: '⌫'
+    ENTER: '⏎'
+    DEL: '⌫'
+    BSPC: '⌦'
 
     LGUI: '⌘'
     RGUI: '⌘'
@@ -415,28 +416,32 @@ parse_config:
     RSHIFT: '⇧'
 
     ESC: 'ESC'
-    PGUP: 'PAG▲'
-    PGDN: 'PAG▼'
+    PG_UP: 'PAG▲'
+    PG_DN: 'PAG▼'
     HOME: 'HOME'
-    MENU: '☰'
-    CAPS: '🄰CAPS'
-    KPNUM: 'NUM'
+    END: 'END'
+    K_MENU: '☰'
+    CAPS: '🄰 CAPS'
+    KP_NUM: 'NUM'
     SLCK: 'SCROLL LOCK'
     INS: '⎀INS'
     PSCRN: '⎙'
 
-    UNDO: '↶'
-    REDO: '↷'
-    COPY: 'COPY'
-    CUT: '✂'
-    PASTE: 'PASTE'
+    K_UNDO: '↶'
+    K_REDO: '↷'
+    K_COPY: 'COPY'
+    K_CUT: '✂'
+    K_PASTE: '✂'
 
-    MUTE: '🕨'
-    VOLUP: '🕪'
-    VOLDN: '🕩'
-    PLAYPAUSE: '⏯'
-    PREVIOUS: '⏮'
-    NEXT: '⏭'
+    C_MUTE: '🕨'
+    C_VOL_UP: '🕪'
+    C_VOL_DN: '🕩'
+    C_PLAY_PAUSE: '⏯'
+    C_PREV: '⏮'
+    C_NEXT: '⏭'
+    C_RW: 'REWIND'
+    C_FF: 'FAST FORW'
+    C_PAUSE: '⏸'
 
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
