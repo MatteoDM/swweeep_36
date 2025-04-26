@@ -31,9 +31,9 @@ layers:
   - ','
   - .
   - /
-  - {t: ⌦, h: func}
+  - {t: ⌦, h: num}
   - {t: ⌫, h: sym}
-  - {t: ESC, h: num}
+  - {t: ESC, h: func}
   - {t: ⭾, h: nav}
   - {t: ⏎, h: mouse}
   - ␣
@@ -148,43 +148,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  func:
-  - {t: ▽, type: trans}
-  - REWIND
-  - ⏸
-  - FAST FORW
-  - 🕪
-  - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - ⌘
-  - ⌥
-  - CTRL
-  - ⇧
-  - 🕩
-  - {t: ▽, type: trans}
-  - F4
-  - F5
-  - F6
-  - F11
-  - {t: ▽, type: trans}
-  - ⏮
-  - ⏯
-  - ⏭
-  - 🕨
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F12
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   num:
   - {t: ▽, type: trans}
   - '`'
@@ -216,6 +179,43 @@ layers:
   - '2'
   - '3'
   - .
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  func:
+  - {t: ▽, type: trans}
+  - REWIND
+  - ⏸
+  - FAST FORW
+  - 🕪
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - ⌘
+  - ⌥
+  - CTRL
+  - ⇧
+  - 🕩
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - ⏮
+  - ⏯
+  - ⏭
+  - 🕨
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -262,4 +262,4 @@ layers:
 combos:
 - p: [13, 16]
   k: '&caps_word'
-  l: [default, nav, mouse, sym, func, num]
+  l: [default, nav, mouse, sym, num, func]
