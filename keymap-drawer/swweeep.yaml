@@ -31,12 +31,12 @@ layers:
   - ','
   - .
   - /
-  - {t: ESC, h: func}
-  - ␣
+  - {t: ⌫, h: func}
+  - {t: ⌦, h: sym}
+  - {t: ESC, h: num}
   - {t: ⭾, h: nav}
-  - {t: ENTER, h: num}
-  - {t: ⌫, h: sym}
-  - {t: ⌦, h: mouse}
+  - {t: ENTER, h: mouse}
+  - ␣
   nav:
   - REDO
   - HOME
@@ -48,12 +48,12 @@ layers:
   - KP NUM
   - ⎀INS
   - BOOT
-  - '&lca_tab'
+  - HOME
   - ⬅
   - ⬇
   - ⮕
   - PG DN
-  - MENU
+  - CMENU
   - ⇧
   - CTRL
   - ⌥
@@ -70,8 +70,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
@@ -105,12 +105,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RIGHT CLICK
   - LEFT CLICK
+  - RIGHT CLICK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   sym:
   - {t: ▽, type: trans}
   - '` INTL.'
@@ -143,10 +143,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   func:
   - {t: ▽, type: trans}
@@ -218,8 +218,8 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adj:
