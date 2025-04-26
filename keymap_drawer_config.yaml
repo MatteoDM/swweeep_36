@@ -149,27 +149,27 @@ draw_config:
     }
     .layer-nav rect.key, .layer-nav rect.key-side,
     rect.key.hold-NAV, rect.key-side.hold-NAV, .hold-NAV.hold {
-        fill: #67a0d6;
+        fill: #ffd966;
     }
     .layer-mouse rect.key, .layer-mouse rect.key-side,
     rect.key.hold-MOUSE, rect.key-side.hold-MOUSE, .hold-MOUSE.hold {
-        fill: #76a5af;
+        fill: #93c47d;
     }
     .layer-sym rect.key, .layer-sym rect.key-side,
     rect.key.hold-SYM, rect.key-side.hold-SYM, .hold-SYM.hold {
-        fill: #93c47d;
+        fill: #76a5af;
     }
     .layer-num rect.key, .layer-num rect.key-side,
     rect.key.hold-NUM, rect.key-side.hold-NUM, .hold-NUM.hold {
-        fill: #e06666;
+        fill: #67a0d6;
     }
     .layer-func rect.key, .layer-func rect.key-side,
     rect.key.hold-FUN, rect.key-side.hold-FUN, .hold-FUN.hold {
-        fill: #ffd966;
+        fill: #8e7cc3;
     }
     .layer-adj rect.key, .layer-adj rect.key-side,
     rect.key.hold-ADJ, rect.key-side.hold-ADJ, .hold-ADJ.hold {
-        fill: #8e7cc3;
+        fill: #e06666;
     }
 
     /* .hold-NAV.hold {
