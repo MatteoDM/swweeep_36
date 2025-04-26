@@ -13,8 +13,8 @@
 #define NAV     1
 #define MOUSE   2
 #define SYM     3
-#define FUNC    4
-#define NUM     5
+#define NUM     4
+#define FUNC    5
 #define ADJ     6
 
 &caps_word {
