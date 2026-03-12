@@ -1,8 +1,9 @@
 name: Build ZMK user config
 on: [push, pull_request, workflow_dispatch]
 
+env:
+  ZMK_BOARD_COMPAT: y
+
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    env:
-      ZMK_BOARD_COMPAT: y
