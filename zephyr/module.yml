@@ -1,3 +1,5 @@
+name: swweeep_zephyr
+
 build:
   settings:
     board_root: .
