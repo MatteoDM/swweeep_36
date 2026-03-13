@@ -18,9 +18,8 @@ west update
 
 cd zmk/app
 
-west build -d build/swweeep/right --pristine -b "nice_nano@2" -- -DSHIELD=swweeep_right -DZMK_EXTRA_MODULES="D:/Local_projects/swweeep_36"
+west build -d build/swweeep/right --pristine -b "nice_nano/nrf52840/zmk" -- -DSHIELD=swweeep_right -DZMK_EXTRA_MODULES="D:/Local_projects/swweeep_36"
 
-west build -d build/swweeep/left --pristine -b "nice_nano@2" -- -DSHIELD=swweeep_left -DZMK_EXTRA_MODULES="D:/Local_projects/swweeep_36"
+west build -d build/swweeep/left --pristine -b "nice_nano/nrf52840/zmk" -- -DSHIELD=swweeep_left -DZMK_EXTRA_MODULES="D:/Local_projects/swweeep_36"
 
-
-west build -d build/swweeep/reset --pristine -b "nice_nano@2" -- -DSHIELD=settings_reset -DZMK_EXTRA_MODULES="D:/Local_projects/swweeep_36"
+west build -d build/swweeep/reset --pristine -b "nice_nano/nrf52840/zmk" -- -DSHIELD=settings_reset -DZMK_EXTRA_MODULES="D:/Local_projects/swweeep_36"
