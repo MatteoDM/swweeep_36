@@ -15,7 +15,7 @@ manifest:
     #   import: app/west.yml
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 8feeb52eafc716c1697cfe0515e98b78281c3543
       import: app/west.yml
     # Replace the one above with the commented one below when that branch gets merged
     # into ZMK main, or if you're not using pointing devices for your build.
